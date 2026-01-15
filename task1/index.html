@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Shopping List Manager</h1>
+
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="itemInput" placeholder="Enter an item to add to your shopping list" />
+                <button class="add-btn" onclick="addItemToList()">Add Item</button>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="searchInput" placeholder="Search for items in your list" />
+                <button class="search-btn" onclick="searchItems()">Search</button>
+            </div>
+
+            <div class="input-group">
+                <button class="remove-btn" onclick="removeLastItemFromList()">
+                    Remove Last Item
+                </button>
+            </div>
+        </div>
+
+        <div id="messageArea"></div>
+
+        <div class="list-section">
+            <h2>Your Shopping List</h2>
+            <div id="shoppingListDisplay">
+            
+            </div>
+        </div>
+    </div>
+
+    <script defer src="index.js"></script>
+</body>
+
+</html>
