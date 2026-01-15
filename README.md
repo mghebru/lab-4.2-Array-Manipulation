@@ -32,8 +32,12 @@ Write another function that removes the last item and updates the displayed list
 
 **How did array methods like push() and filter() help you manipulate data in this activity?**
 
+These methods allowed quick and easy manipulation of the array without writing complex functions.
 
 **What challenges did you face when trying to filter and search for items in the array?**
 
+Challanges I faced were knowing how to target each input element for the filter and implementing cases such as invalid or double entries.
 
 **How would you modify this code to make it more efficient or user-friendly?**
+
+I would add styling to make it more aesthetic for the user.
